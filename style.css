@@ -106,13 +106,14 @@ body {
 }
 
 .infos {
-    padding: 3rem 5rem;
+    padding: 3rem 5rem 20rem 5rem;
     display: flex;
     flex-direction: column;
     gap: 3rem;
     margin-top: 5rem;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .info {
@@ -265,7 +266,7 @@ p {
 }
 
 .icon i:nth-of-type(1) {
-    padding: 10px 12px;
+    padding: 11px 13px;
 }
 
 .icon i:hover {
