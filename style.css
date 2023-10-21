@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+:root {
+    --open_sans: 'Open Sans', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+    --Pink: hsl(322, 100%, 66%);
+    --Very_Pale_Cyan: hsl(193, 100%, 96%);
+    --Very_Dark_Cyan: hsl(192, 100%, 9%);
+    --Grayish_Blue: hsl(208, 11%, 55%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--open_sans);
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.hero {
+    min-height: 95vh;
+    background: url('./images/bg-hero-desktop.svg') no-repeat center center/cover var(--Very_Pale_Cyan);
+    padding: 3rem 5rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 180px;
+}
+
+.headerBtn {
+    background-color: #fff;
+    padding: 1rem 4rem;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    font-family: inherit;
+    font-weight: 800;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.headerBtn:hover {
+    color: var(--Grayish_Blue);
+}
