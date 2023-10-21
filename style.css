@@ -162,12 +162,11 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50vw;
     text-align: center;
     min-height: 280px;
     border-radius: 20px;
     gap: 1.5rem;
-    padding: 2rem;
+    padding: 2rem 4rem;
 }
 
 .build h1 {
@@ -194,7 +193,7 @@ p {
 }
 
 .footer {
-    height: 75vh;
+    min-height: 75vh;
     background-color: var(--Very_Dark_Cyan);
     color: var(--Very_Pale_Cyan);
     display: flex;
@@ -325,4 +324,21 @@ p {
         padding: 0;
     }
 
+    .footer_inner_infos {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .firstF {
+        width: 100%;
+    }
+
+    .location {
+        min-width: 18px;
+        max-width: 18px;
+    }
+
+    .icons {
+        align-items: center;
+    }
 }
