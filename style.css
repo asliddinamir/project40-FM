@@ -106,7 +106,7 @@ body {
 }
 
 .infos {
-    padding: 3rem 5rem 20rem 5rem;
+    padding: 3rem 5rem;
     display: flex;
     flex-direction: column;
     gap: 3rem;
