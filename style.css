@@ -188,3 +188,103 @@ p {
     cursor: pointer;
     transition: .3s ease;
 }
+
+.buildBtn:hover {
+    opacity: .7;
+}
+
+.footer {
+    height: 75vh;
+    background-color: var(--Very_Dark_Cyan);
+    color: var(--Very_Pale_Cyan);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    padding: 3rem 5rem;
+}
+
+.footer_logo {
+    margin-bottom: 1.5rem;
+}
+
+.footer_inner_infos {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.fii {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.fii a {
+    color: var(--Very_Pale_Cyan);
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+.fii a:hover {
+    text-decoration: underline;
+}
+
+.firstF {
+    width: 30%;
+}
+
+.fiis {
+    display: flex;
+    align-items: start;
+    gap: 2rem;
+}
+
+.location {
+    width: 50px;
+}
+
+.icons {
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.icon i {
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .3s ease;
+}
+
+.icon i:nth-of-type(1) {
+    padding: 10px 12px;
+}
+
+.icon i:hover {
+    color: var(--Pink);
+    border: 1px solid var(--Pink);
+}
+
+.copyright {
+    font-size: 12px;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.attribution a {
+    color: red;
+}
