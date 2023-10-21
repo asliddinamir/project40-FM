@@ -288,3 +288,41 @@ p {
 .attribution a {
     color: red;
 }
+
+@media(max-width:1048px) {
+    .hero_body {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .hb_info {
+        width: 100%;
+    }
+
+    .info {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        padding: 2.5rem 2rem;
+    }
+
+    .left_info {
+        width: 100%;
+        margin: 1rem;
+    }
+
+    .growImg {
+        width: 84%;
+    }
+
+    #info {
+        flex-direction: column;
+    }
+
+    #flowImg {
+        padding: 0;
+    }
+
+}
