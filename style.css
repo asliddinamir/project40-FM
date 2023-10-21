@@ -342,3 +342,67 @@ p {
         align-items: center;
     }
 }
+
+@media(max-width:685px) {
+
+    .hero,
+    .infos,
+    .footer {
+        padding: 2rem;
+    }
+
+    .buildBtn {
+        padding: 1rem 3rem;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:562px) {
+    .hero {
+        padding: 1rem;
+    }
+
+    .hb_title {
+        font-size: 30px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .hb_description {
+        font-size: 16px;
+    }
+
+    .headerBtn {
+        padding: .8rem 2.5rem;
+        font-size: 12px;
+    }
+
+    .hb_image {
+        height: 20rem;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .build {
+        padding: 1rem;
+        height: auto;
+    }
+
+    .build h1 {
+        font-size: 22px;
+    }
+
+    .buildBtn {
+        font-size: 14px;
+        padding: 1rem;
+    }
+
+    .attribution {
+        font-size: 12px;
+        margin-top: 2rem;
+    }
+}
